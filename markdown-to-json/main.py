@@ -3,13 +3,8 @@ import markdown
 import html_to_json
 import json
 
-md_text = "# Hello World\n## Hello World 2"
-html_str = markdown.markdown(md_text)
-json_str = json.dumps(html_to_json.convert(html_str), indent=4)
-print(json_str)
-
 def home(server_request: cob.Request) -> cob.Page:
-    page = cob.Page("Markdownt to JSON")
+    page = cob.Page("Markdown to JSON")
 
     page.add_header("Markdown to JSON")
 
