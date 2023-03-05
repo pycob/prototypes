@@ -30,8 +30,8 @@ def home(server_request: cob.Request) -> cob.Page:
     page.add_divider()
 
     page.add_header("Source Code For This Page")
-    page.add_link("View on GitHub", "https://github.com/pycob/prototypes/blob/main/markdown-to-html/")
-    page.add_emgithub("https://github.com/pycob/prototypes/blob/main/markdown-to-html/main.py")
+    page.add_link("View on GitHub", "https://github.com/pycob/prototypes/blob/main/markdown-to-json/")
+    page.add_emgithub("https://github.com/pycob/prototypes/blob/main/markdown-to-json/main.py")
 
     return page
 
